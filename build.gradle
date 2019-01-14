@@ -15,5 +15,5 @@ repositories {
 
 dependencies {
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
-    testCompile group: 'junit', name: 'junit'
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test'
 }
