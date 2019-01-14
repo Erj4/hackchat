@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version "2.1.2.RELEASE"
+    id "io.spring.dependency-management" version "1.0.6.RELEASE"
+}
+
+group 'uk.erj4'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
+    testCompile group: 'junit', name: 'junit'
+}
